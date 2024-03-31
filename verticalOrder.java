@@ -19,7 +19,7 @@ public class Solution {
      //sc:O(n)
     public List<List<Integer>> verticalOrder(TreeNode root) {
         // write your code here
-        List<List<Integer>> result = nre LinkedList<>();
+        List<List<Integer>> result = new LinkedList<>();
         if(root == null) return result;
         HashMap<Integer,List<Integer>> map = new HashMap<>();
         Queue<TreeNode> q = new LinkedList<>();
